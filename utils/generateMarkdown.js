@@ -11,28 +11,28 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   * [Description](###Description)
-  * [License](####License)
-  * [Installation](####Installation)
-  * [Tests](####Tests)
-  * [Usage](####Usage)
-  * [Contributions](####Contributions)
+  * [License](###License)
+  * [Installation](###Installation)
+  * [Tests](###Tests)
+  * [Usage](###Usage)
+  * [Contributions](###Contributions)
 
   ### Description
   ${data.Description}
 
-  #### License
+  ### License
   ${data.License}
 
-  #### Installation
+  ### Installation
   ${data.Installation}
 
-  #### Tests
+  ### Tests
   ${data.Tests}
 
-  #### Usage
+  ### Usage
   ${data.Usage}
 
-  #### Contributions
+  ### Contributions
   ${data.Contribution}
 `;
 }
